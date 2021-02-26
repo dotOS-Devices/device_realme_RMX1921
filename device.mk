@@ -174,6 +174,9 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# iorap
+PRODUCT_PACKAGES += iorap-nall
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
