@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_RMX1921.mk
+    $(LOCAL_DIR)/corvus_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_RMX1921-userdebug \
-    ancient_RMX1921-eng
+    corvus_RMX1921-user \
+    corvus_RMX1921-userdebug \
+    corvus_RMX1921-eng

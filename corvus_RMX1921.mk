@@ -4,22 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common AncientOS stuff
+# Inherit some common CorvusOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_FOD_ANIMATIONS := true
 TARGET_USES_BLUR := true
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Official-ify
-ANCIENT_OFFICIAL=true
+RAVEN_LAIR=Official
 
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1921
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := ancient_RMX1921
+PRODUCT_NAME := corvus_RMX1921
 PRODUCT_MODEL := Realme XT
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
