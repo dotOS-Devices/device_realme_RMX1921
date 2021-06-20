@@ -384,8 +384,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc \
-    apex_metadata.rc
+    ueventd.qcom.rc
 
 # Recovery
 PRODUCT_PACKAGES += \
