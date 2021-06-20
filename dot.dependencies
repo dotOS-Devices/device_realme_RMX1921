@@ -1,0 +1,14 @@
+[
+ {
+   "repository": "device_realme_RMX1921",
+   "target_path": "device/realme/RMX1921"
+ },
+ {
+   "repository": "vendor_realme_RMX1921",
+   "target_path": "vendor/realme/RMX1921"
+ },
+ {
+   "repository": "kernel_realme_RMX1921",
+   "target_path": "kernel/realme/RMX1921"
+ }
+]
