@@ -1084,6 +1084,9 @@
     <!-- NightLight UDFPS -->
     <bool name="disable_udfps_night_light">true</bool>
 
+    <!-- the number of the max cached processes in the system. -->
+    <integer name="config_customizedMaxCachedProcesses">64</integer>
+
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
 
