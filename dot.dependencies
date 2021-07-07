@@ -1,14 +1,12 @@
 [
-  {
-    "remote": "github",
-    "repository": "Deepak5310/kernel_realme_RMX1921",
-    "target_path": "kernel/realme/RMX1921",
-    "branch": "dot11"
-  },
-  {
-    "remote": "gitlab",
-    "repository" : "deepak5310/vendor_realme_rmx1921",
-    "target_path": "vendor/realme/RMX1921",
-    "branch": "evox"
-  }
+ {
+   "repository": "Deepak5310/vendor_realme_RMX1921",
+   "target_path": "vendor/realme/RMX1921",
+   "branch":"dot11",
+   "remote":"github"
+ },
+ {
+   "repository": "kernel_realme_RMX1921",
+   "target_path": "kernel/realme/RMX1921"
+ }
 ]
