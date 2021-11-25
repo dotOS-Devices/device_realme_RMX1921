@@ -1,12 +1,14 @@
 [
  {
-   "repository": "Deepak5310/vendor_realme_RMX1921",
+   "repository": "prakashitssh/vendor_realme_RMX1921",
    "target_path": "vendor/realme/RMX1921",
-   "branch":"dot11",
+   "branch":"kb11",
    "remote":"github"
  },
  {
-   "repository": "kernel_realme_RMX1921",
-   "target_path": "kernel/realme/RMX1921"
+   "repository": "kaderbava/android_kernel_realme_RMX1921",
+   "target_path": "kernel/realme/RMX1921",
+   "branch":"11",
+   "remote":"github"
  }
 ]
