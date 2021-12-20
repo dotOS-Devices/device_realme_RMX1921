@@ -73,7 +73,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.audio.volume.headset.gain.depcal=true \
-    vendor.audio_hal.period_size=192
+    vendor.audio_hal.period_size=240
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
