@@ -22,6 +22,7 @@ persist.aec.manual.mode                  u:object_r:vendor_camera_prop:s0
 persist.camera.                  u:object_r:vendor_camera_prop:s0
 ro.camera.                  u:object_r:vendor_camera_prop:s0
 persist.oppo.camera.                 u:object_r:vendor_camera_prop:s0
+vendor.camera.skip_unconfigure.packagelist                  u:object_r:vendor_camera_prop:s0
 
 # Radio props
 gsm.operator.numeric              u:object_r:radio_prop:s0
