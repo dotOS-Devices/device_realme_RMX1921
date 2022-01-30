@@ -12,6 +12,10 @@ ro.bluetooth.emb_wp_mode=false
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # Camera
 ro.camera.hfr.enable=0
 persist.camera.HAL3.enabled=1
