@@ -5,8 +5,7 @@
 #
 
 # Inherit some common AEX stuff
-TARGET_BOOT_ANIMATION_RES := 2280
-EXTRA_UDFPS_ANIMATIONS := true
+TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from RMX1921 device
