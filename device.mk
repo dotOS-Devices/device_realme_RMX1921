@@ -14,6 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/realme/RMX1921/RMX1921-vendor.mk)
 
+# RealmeDirac
+$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -53,6 +56,12 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener
+
+# RealmeDirac
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dirac/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
+    $(LOCAL_PATH)/dirac/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    $(LOCAL_PATH)/dirac/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \

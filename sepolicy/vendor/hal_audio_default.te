@@ -14,3 +14,7 @@ allow hal_audio_default sysfs:dir { read open };
 allow hal_audio_default proc_audio_file:file { read };
 
 dontaudit hal_audio_default default_prop:file read;
+
+# Dirac
+get_prop(hal_audio_default, dirac_prop)
+set_prop(hal_audio_default, dirac_prop)
