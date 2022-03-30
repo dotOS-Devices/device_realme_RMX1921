@@ -17,9 +17,6 @@ $(call inherit-product, vendor/realme/RMX1921/RMX1921-vendor.mk)
 # RealmeDirac
 $(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # HIDL
 $(call inherit-product, $(LOCAL_PATH)/RMX1921-hidl.mk)
 
