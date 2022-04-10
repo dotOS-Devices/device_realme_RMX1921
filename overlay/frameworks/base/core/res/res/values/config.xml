@@ -1079,6 +1079,9 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
+    <!-- NightLight UDFPS -->
+    <bool name="disable_udfps_night_light">true</bool>
+
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
 
