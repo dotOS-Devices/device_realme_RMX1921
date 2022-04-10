@@ -33,6 +33,9 @@
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
+    <!-- Whether or not to show the ripple animation when unlocking the device using fringerprint. -->
+    <bool name="config_show_fp_ripple">true</bool>
+
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
 
