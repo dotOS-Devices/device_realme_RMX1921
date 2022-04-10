@@ -1071,8 +1071,10 @@
 	<item>com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService</item>
     </string-array>
 
-    <!-- Whether to show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
+    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
+         manually by the user. Off by default, since the expected haptic feedback may not be
+         available on some devices. -->
+    <bool name="config_enableHapticTextHandle">true</bool>
 
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
