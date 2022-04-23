@@ -11,7 +11,7 @@ type proc_oppoversion, fs_type, proc_type;
 type proc_oppo_fp, fs_type, proc_type;
 
 # Camera
-type persist_camera_file, file_type;
+type vendor_persist_camera_file, file_type;
 
 # Devinfo
 type proc_devinfo, fs_type, proc_type;
