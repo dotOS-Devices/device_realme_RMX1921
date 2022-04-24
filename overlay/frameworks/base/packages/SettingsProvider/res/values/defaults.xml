@@ -20,6 +20,9 @@
     <!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">false</bool>
 
+    <!-- Default screen off timeout to 30 second -->
+    <integer name="def_screen_off_timeout">30000</integer>
+
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">Realme XT</string>
     
